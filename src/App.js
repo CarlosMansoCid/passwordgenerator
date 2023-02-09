@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import bg from "../src/assets/images/bg.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{color:"#eee", fontSize:'60px'}}><span style={{color:'rgba(255,197,45,1)'}}>SECUR3</span>PASSWORD<br/>Manager</h1>
+      <p style={{color:'#eee', fontSize:'30px'}}>Generate, store and<br/><span style={{color:'rgba(255,197,45,1)'}}>remember all your password </span><br/>more easy than ever!</p>
+      <button style={{border:'none',
+                      padding:'1rem 3rem',
+                      borderRadius:'15px', 
+                      margin: '2rem',
+                      background: "rgb(244,162,97)",
+                      background: "linear-gradient(133deg, rgba(244,162,97,1) 6%, rgba(255,197,45,1) 89%)", 
+                      color:'#fff',
+                      fontFamily:'Comfortaa',
+                      }}>Hola</button>
     </div>
   );
 }
